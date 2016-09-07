@@ -1,0 +1,23 @@
+package chosen.nlp.lda.test;
+
+import chosen.nlp.lda.conf.PathConfig;
+import chosen.nlp.lda.model.CGWTModel;
+import chosen.nlp.lda.util.DocSentence;
+
+public class CGWTModelTest {
+
+  /**
+   * @param args
+   */
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    DocSentence DocsIn = new DocSentence();
+    
+    String delimiter = "!###";
+    DocsIn.readStructuredDocs(PathConfig.LdaStructuredTrainFilePath, delimiter);
+    
+    //LdaModel lda = new LdaModel(DocsIn,delimiter);
+    CGWTModel lda = new CGWTModel(DocsIn,delimiter);
+    lda.labelTrain();
+  }
+}

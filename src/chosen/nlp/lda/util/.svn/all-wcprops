@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util
+END
+DocSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/DocSentence.java
+END
+HighFreWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/HighFreWords.java
+END
+SeedWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/SeedWords.java
+END
+DocBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/DocBase.java
+END
+Documents.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Documents.java
+END
+MatrixUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/MatrixUtil.java
+END
+Aspects.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Aspects.java
+END
+Stopwords.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Stopwords.java
+END
+MSIPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/MSIPair.java
+END
+Doc.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Doc.java
+END
+Stemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Stemmer.java
+END
+ComUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/ComUtil.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/FileUtil.java
+END
+Wordnet_Stemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Wordnet_Stemmer.java
+END
+Sorting.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/Sorting.java
+END
+SIPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/SIPair.java
+END
+wordFreq.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/util/wordFreq.java
+END

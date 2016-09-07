@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1
+END
+review1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review1.txt
+END
+review2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review2.txt
+END
+review1-sentence.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review1-sentence.txt
+END
+review3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review3.txt
+END
+review1-20150428.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review1-20150428.txt
+END
+review1-ordernary.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review1-ordernary.txt
+END
+review4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/lda/!svn/ver/5/data/LdaTrainSet/1/review4.txt
+END

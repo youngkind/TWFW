@@ -1,0 +1,8 @@
+alpha = 0.05
+beta = [[D@8611b5c
+topicNum = 20
+docNum = 39555
+termNum = 13800
+iterations = 2501
+saveStep = 500
+beginSaveIters = 1000

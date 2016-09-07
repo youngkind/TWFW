@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model
+END
+TWLdaModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/TWLdaModel.java
+END
+TWLdaTestModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/TWLdaTestModel.java
+END
+LabelP_LDA.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/LabelP_LDA.java
+END
+LDA.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/LDA.java
+END
+LDALabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/LDALabel.java
+END
+LdaModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/LdaModel.java
+END
+LdaGKModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/LdaGKModel.java
+END
+CGWTModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/CGWTModel.java
+END
+TsmEM.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/lda/!svn/ver/6/src/chosen/nlp/lda/model/TsmEM.java
+END

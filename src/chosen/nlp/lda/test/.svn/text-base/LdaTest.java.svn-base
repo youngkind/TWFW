@@ -1,0 +1,74 @@
+package chosen.nlp.lda.test;
+
+import java.io.IOException;
+
+import chosen.nlp.lda.conf.LDAParameter;
+import chosen.nlp.lda.conf.PathConfig;
+import chosen.nlp.lda.model.LDA;
+import chosen.nlp.lda.model.LdaModel;
+import chosen.nlp.lda.model.LabelP_LDA;
+import chosen.nlp.lda.model.TWLdaModel;
+import chosen.nlp.lda.model.TWLdaTestModel;
+import chosen.nlp.lda.model.variables.TWLdaTestVariables;
+import chosen.nlp.lda.util.DocSentence;
+import chosen.nlp.lda.util.Documents;
+
+public class LdaTest {
+
+  /*
+   * 训练样本
+   */
+  public static void train() throws IOException{
+    DocSentence DocsIn = new DocSentence();
+    
+    String delimiter = "!###";
+    //DocsIn.read20NewsStructuredDocs("data/LdaTrainSet/2/tcdata/smallTrain.txt","data/LdaTrainSet/2/tcdata/label.txt");
+    DocsIn.readStructuredDocs(PathConfig.LdaStructuredTrainFilePath, delimiter);
+    
+    
+    TWLdaModel lda = new TWLdaModel(DocsIn,delimiter);
+    //LdaModel lda = new LdaModel(DocsIn,delimiter);
+    //LabelP_LDA lda = new LabelP_LDA(DocsIn,delimiter);
+    //lda.labelTrain();
+    lda.Train();
+    //lda.saveResult();
+  }
+  
+  /*
+   * 测试样本
+   */
+  public static void test() throws IOException{
+    DocSentence DocsTest = new DocSentence();
+    DocsTest.read20NewsStructuredDocs("data/LdaTrainSet/2/tcdata/smallTest.txt","data/LdaTrainSet/2/tcdata/label.txt");
+    TWLdaTestModel testLda = new TWLdaTestModel(DocsTest, "");
+    testLda.TWTrain();
+    testLda.saveResult();
+    testLda.getPrecision();
+  }
+  /**
+   * @param args
+ * @throws IOException 
+   */
+  public static void main(String[] args) throws IOException {
+    // TODO Auto-generated method stub
+    //Documents DocsIn = new Documents ();
+    //read files from path
+    //DocsIn.readDocs(PathConfig.LdaTrainSetPath);
+    //read structured file 
+   
+    train();
+    //test();
+    
+    
+    
+    //TWLdaTestVariables twVariables = lda.getTrainResult();
+    
+    /*
+    
+    */
+    
+    
+    //lda.Save(2501);
+    //lda.termWeightTrain();
+  }
+}
